@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Viaoda+Libre&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Viaoda Libre", serif;
+}
+
+#main {
+    width: 64em;
+    margin: 0 auto;
+}
+
+.header_main {
+    background-color: #162028;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header_nav__h1 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Viaoda Libre', serif;
+}
+
+.header_division__items {
+    display: flex;
+    gap: 2em;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.header_division__items a {
+    text-decoration: none;
+    color: #425564;
+    text-transform: uppercase;
+}
+
+.content_main {
+    margin: 5em auto;
+    width: 85%;
+    font-family: "Roboto", sans-serif;
+}
+
+.content_title {
+    text-align: center;
+    font-family: 'Viaoda Libre', cursive;
+}
+
+.content_main__description  {
+    margin: 30px 80px;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+.flex_items {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.article_division__items {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article_division__items h2{
+    font-size: 18px;
+    font-family: 'Viaoda Libre', serif;
+    text-transform: uppercase;
+}
+
+.article_division__items p {
+    margin-top: 0;
+    padding: 0;
+    color: #555;
+}
+
+main {
+    background-color: #003d52;
+    height: 35em;
+    background-image: url(imagens/bg_detalhe.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.content_contact {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.description {
+    padding: 50px;
+}
+
+.contact_title {
+    color: white;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+.contact_description {
+    color: white;
+}
+
+footer {
+    background-color: #0b171f;
+    color: #6f8597;
+    padding: 12px;
+    text-align: center;
+    width: 62.5em;
+    margin: 0 auto;
+}
